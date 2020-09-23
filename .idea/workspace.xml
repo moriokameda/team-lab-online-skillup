@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:PHP_skillup-php" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7543e53b-6379-4133-a338-314571a15e68" name="デフォルト変更リスト" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/docker/mysql/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/docker/mysql/conf.d/my.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/application/service/TodoQueryService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/application/service/TodoRecordService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/domain/Todo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/domain/TodoDescription.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/domain/TodoTitle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/infrastructer/entity/TodoEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/prezentation/controller/TodoController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/team-lab_online-skillup.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../teamlab/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../teamlab/.idea/teamlab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio/img/IMG_4559.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio/video/coffee_working2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio/video/coffee_working3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio/video/many_working.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../portfolio/video/meeting.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/AutoStarter.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/AutoStarter.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/AutoStarter.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/SampleSetting.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/StartClient.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/StartClient.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/StartGUIClient.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/StartGUIClient.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/StartServer.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/StartServer.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/aiwolf-client.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/aiwolf-common.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/aiwolf-server.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/aiwolf-viewer.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AIWolf-ver0.4.12/jsonic-1.3.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSS valiables/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CanvasAPP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HTMLCSSPJ1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScriptBasic/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScriptBasic/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript_入門/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript_入門/js/helloEx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jquery_study/greet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jquery_study/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jquery_study/js/jqueryStudy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Jquery_study/more.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyGallery" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNumberGame" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyOmikuji" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyQuizApp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyShiftAnimations/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyShiftAnimations/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MySlideShow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MySlotMachine" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyStopWatch/.firebaserc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyStopWatch/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyStopWatch/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyStopWatch/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyStopWatch/firebase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyStopWatch/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyStopWatch/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyYoutube" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MytypingGame" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../firebase_study" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javascript-basic/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/image3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/js/jquery.showsize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/js/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../my-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../quickstart-js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/assets/dove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/assets/favorite-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/assets/favorite-1_th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/assets/favorite-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/assets/favorite-2_th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/assets/favorite-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/assets/favorite-3_th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/assets/favorite-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/assets/favorite-4_th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/assets/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/css-box/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/css-box/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/css-letter/bottom-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/css-letter/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/css-letter/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/css-letter/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/css-letter/top-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/css-study/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/css-study/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/html-site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/html-site/picture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/html-site/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/html-site/social.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/letter-site" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/test-site/img/IMG_4615.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/test-site/img/ushiroegao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/test-site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/test-site/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web-project/test-site/sytle/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/01-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/01-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/01.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/02-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/02.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/03-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/1-1-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/10-2-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/11-2-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/14-2-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/15-2-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/16-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/2-1-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/5-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/7-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/8-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/hakubo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/logo_footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/logo_header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/story.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/t_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/t_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/img/t_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../word-study/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/.firebaserc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/css/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/css/slick-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/css/slick.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/css/vogue/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/firebase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/01-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/01-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/01.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/02-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/02.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/03-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/1-1-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/10-2-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/11-2-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/14-2-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/15-2-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/16-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/2-1-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/5-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/7-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/8-480x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/hakubo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/logo_footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/logo_header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/splash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/story.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/t_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/t_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/img/t_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/js/jquery-migrate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/wp-json.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wordpresstheme/作成中.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1hpYR1Ah67lCsclVrtFfJXoIiw5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7543e53b-6379-4133-a338-314571a15e68" name="デフォルト変更リスト" comment="" />
+      <created>1600709488774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600709488774</updated>
+      <workItem from="1600709489948" duration="6601000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1600867941579">
+      <screen x="41" y="23" width="1751" height="1097" />
+    </state>
+    <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser/41.23.1751.1097@41.23.1751.1097" timestamp="1600867941579" />
+  </component>
+</project>

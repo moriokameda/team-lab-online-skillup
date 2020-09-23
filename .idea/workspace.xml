@@ -41,6 +41,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/team-lab_online-skillup.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/BbsController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../teamlab/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../teamlab/.idea/teamlab.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../portfolio/.htaccess" afterDir="false" />
@@ -243,6 +244,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -253,7 +255,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600709488774</updated>
-      <workItem from="1600709489948" duration="6601000" />
+      <workItem from="1600709489948" duration="10418000" />
     </task>
     <servers />
   </component>
@@ -272,9 +274,17 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1600867941579">
+    <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1600870846163">
       <screen x="41" y="23" width="1751" height="1097" />
     </state>
-    <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser/41.23.1751.1097@41.23.1751.1097" timestamp="1600867941579" />
+    <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser/41.23.1751.1097@41.23.1751.1097" timestamp="1600870846163" />
+    <state x="552" y="304" key="NewPhpClassDialog" timestamp="1600868567583">
+      <screen x="41" y="23" width="1751" height="1097" />
+    </state>
+    <state x="552" y="304" key="NewPhpClassDialog/41.23.1751.1097@41.23.1751.1097" timestamp="1600868567583" />
+    <state x="417" y="210" key="SettingsEditor" timestamp="1600872276749">
+      <screen x="41" y="23" width="1751" height="1097" />
+    </state>
+    <state x="417" y="210" key="SettingsEditor/41.23.1751.1097@41.23.1751.1097" timestamp="1600872276749" />
   </component>
 </project>

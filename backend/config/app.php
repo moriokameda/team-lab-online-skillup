@@ -175,6 +175,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+//        追加分
+        Laravel\Socialite\Facades\Socialite::class,
+
+
     ],
 
     /*
@@ -226,6 +231,9 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+//        追加分
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
 
     ],
 

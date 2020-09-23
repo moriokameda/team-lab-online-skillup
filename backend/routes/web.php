@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\OAuthController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,5 +24,12 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('login/github', [LoginController::class, 'redirectToProvider']);
-Route::get('login/github/callback', [LoginController::class, 'handleProviderCallback']);
+
+Route::prefix('login')->group(function () {
+    Route::get('/{provider}', [OAuthController::class, 'socialOAuth'])->where('provider', 'github|facebook|google');
+    Route::get('/{provider}/callback', [OAuthController::class, 'handleProviderCallback'])
+        ->where('provider', 'github|facebook|google');
+});
+//Route::get('login/{provider}', [LoginController::class, 'redirectToProvider'])->where('provider', 'github|facebook|google');
+//Route::get('login/{provider}/callback', [LoginController::class, 'handleProviderCallback'])
+//    ->where('provider', 'github|facebook|google');

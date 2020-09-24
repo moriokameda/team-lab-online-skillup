@@ -93,15 +93,8 @@
       <change beforePath="$PROJECT_DIR$/../../MytypingGame" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/Auth/OAuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/Auth/OAuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../firebase_study" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javascript-basic/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/css/style.css" beforeDir="false" />
@@ -384,7 +377,7 @@
       <updated>1600709488774</updated>
       <workItem from="1600709489948" duration="11077000" />
       <workItem from="1600873002295" duration="6433000" />
-      <workItem from="1600911713599" duration="19838000" />
+      <workItem from="1600911713599" duration="20337000" />
     </task>
     <servers />
   </component>
@@ -408,10 +401,10 @@
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
     <state x="381" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1600953863537" />
-    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1600969289013">
+    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1600969839450">
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
-    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser/40.23.1752.1097@40.23.1752.1097" timestamp="1600969289013" />
+    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser/40.23.1752.1097@40.23.1752.1097" timestamp="1600969839450" />
     <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser/41.23.1751.1097@41.23.1751.1097" timestamp="1600882024902" />
     <state x="654" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600969339198">
       <screen x="40" y="23" width="1752" height="1097" />

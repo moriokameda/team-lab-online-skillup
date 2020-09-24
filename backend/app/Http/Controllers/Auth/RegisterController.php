@@ -86,8 +86,8 @@ class RegisterController extends Controller
             $file_path = $request->input('provider_avatar');
         }
         if ($request->has('avatar')) {
-            var_dump('avatar');
-            $file_path = $request->file('avatar')->store('public/images');
+            var_dump($request->file());
+            $file_path = $request->file->store('public/images');
         }
 
         return User::create([

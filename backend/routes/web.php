@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\OAuthController;
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\InstagramController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -24,12 +26,15 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-
+Route::get('/instagram',[InstagramController::class,'index'])->name('instagram');
+/**
+ * 認証関連
+ */
 Route::prefix('login')->group(function () {
     Route::get('/{provider}', [OAuthController::class, 'socialOAuth'])->where('provider', 'github|facebook|google');
     Route::get('/{provider}/callback', [OAuthController::class, 'handleProviderCallback'])
         ->where('provider', 'github|facebook|google');
 });
-//Route::get('login/{provider}', [LoginController::class, 'redirectToProvider'])->where('provider', 'github|facebook|google');
-//Route::get('login/{provider}/callback', [LoginController::class, 'handleProviderCallback'])
-//    ->where('provider', 'github|facebook|google');
+
+Route::get('register/{provider}',[OAuthController::class, 'showRegistrationForm'])
+    ->where('provider','github|facebook|google')->name('oauth.register');

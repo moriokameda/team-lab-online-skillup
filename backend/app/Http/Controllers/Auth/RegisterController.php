@@ -5,10 +5,21 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use App\Models\User;
+use Illuminate\Auth\Events\Registered;
+use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Http\Request;
+use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\ValidationException;
 
+/**
+ * Class RegisterController
+ * @package App\Http\Controllers\Auth
+ */
 class RegisterController extends Controller
 {
     /*
@@ -44,14 +55,16 @@ class RegisterController extends Controller
     /**
      * Get a validator for an incoming registration request.
      *
-     * @param  array  $data
+     * @param array $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
     protected function validator(array $data)
     {
+//        var_dump($data);
+//        exit;
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
-            'nickname' => ['string','max:255'],
+            'nickname' => ['string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
@@ -60,17 +73,53 @@ class RegisterController extends Controller
     /**
      * Create a new user instance after a valid registration.
      *
-     * @param  array  $data
+     * @param Request $request
      * @return \App\Models\User
      */
-    protected function create(array $data)
+    protected function create(Request $request)
     {
+        $provider_id = '';
+        if ($request->has('provider_id')) $provider_id = $request->input('provider_id');
+        $file_path = null;
+        if ($request->has('provider_avatar')) {
+            var_dump('provider_avatar');
+            $file_path = $request->input('provider_avatar');
+        }
+        if ($request->has('avatar')) {
+            var_dump('avatar');
+            $file_path = $request->file('avatar')->store('public/images');
+        }
+
         return User::create([
-            'provider_id' => $data['provider_id'],
-            'name' => $data['name'],
-            'nickname' => $data['nickname'],
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
+            'provider_id' => $provider_id,
+            'avatar' => $file_path,
+            'name' => $request->input('name'),
+            'nickname' => $request->input('nickname'),
+            'email' => $request->input('email'),
+            'password' => Hash::make($request->input('password')),
         ]);
+    }
+
+    /**
+     * Handle a registration request for the application
+     * @param Request $request
+     * @return Application|JsonResponse|RedirectResponse|Redirector|mixed
+     * @throws ValidationException
+     */
+    public function register(Request $request)
+    {
+        $this->validator($request->all())->validate();
+
+        event(new Registered($user = $this->create($request)));
+
+        $this->guard()->login($user);
+
+        if ($response = $this->registered($request, $user)) {
+            return $response;
+        }
+
+        return $request->wantsJson()
+            ? new JsonResponse([], 201)
+            : redirect($this->redirectPath());
     }
 }

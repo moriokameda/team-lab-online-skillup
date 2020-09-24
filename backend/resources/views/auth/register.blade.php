@@ -12,6 +12,29 @@
                             @csrf
                             <input type="hidden" name="provider_id" value="{{ $provider_id ?? '' }}">
                             <div class="form-group row">
+                                <label for="avatar" class="col-md-4 col-form-label text-md-right">{{ __('プロフィール画像') }}</label>
+
+                                <div class="col-md-6">
+                                    @if(isset($avatar))
+                                        <img src="{{$avatar}}" v-model="avatar"> <br>
+                                        <input id="provider_avatar" type="hidden" value="{{ $avatar }}" name="provider_avatar">
+                                        <input id="avatar" type="file" class="form-control" @error('avatar') is-invalid
+                                               @enderror name="avatar"
+                                               accept="image/*">
+                                    @else
+                                        <input id="avatar" type="file"
+                                               class="form-control @error('avatar') is-invalid @enderror" name="avatar"
+                                               accept="image/*">
+                                    @endif
+                                    @error('avatar')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
                                 <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('名前') }}</label>
 
                                 <div class="col-md-6">
@@ -110,6 +133,13 @@
                                 </div>
                             </div>
                         </form>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-4">
+                            <a href="{{ url('login/github') }}">
+                                <button type="button" class="btn btn-primary"><i class="fab fa-twitter"></i> GitHubアカウントで登録</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -74,7 +74,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('post_form')}}">{{__('Post_form')}}</a>
+                                <a class="nav-link" href="{{route('home')}}">{{__('投稿')}}</a>
                             </li>
                         @endguest
                     </ul>

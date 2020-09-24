@@ -37,8 +37,6 @@
       <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/infrastructer/entity/TodoEntity.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/prezentation/controller/TodoController.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/views/bbs/index.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../teamlab/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../teamlab/.idea/teamlab.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../portfolio/.htaccess" afterDir="false" />
@@ -94,16 +92,15 @@
       <change beforePath="$PROJECT_DIR$/../../MyYoutube" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MytypingGame" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/team-lab_online-skillup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/team-lab_online-skillup.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/Auth/OAuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/Auth/OAuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../firebase_study" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javascript-basic/index.html" beforeDir="false" />
@@ -236,7 +233,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/backend/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -368,8 +365,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/app/Http/Controllers/Auth" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -380,7 +383,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600709488774</updated>
       <workItem from="1600709489948" duration="11077000" />
-      <workItem from="1600873002295" duration="6116000" />
+      <workItem from="1600873002295" duration="6433000" />
+      <workItem from="1600911713599" duration="19838000" />
     </task>
     <servers />
   </component>
@@ -400,21 +404,32 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1600882024902">
-      <screen x="41" y="23" width="1751" height="1097" />
+    <state x="381" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600953863537">
+      <screen x="40" y="23" width="1752" height="1097" />
     </state>
+    <state x="381" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1600953863537" />
+    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1600969289013">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser/40.23.1752.1097@40.23.1752.1097" timestamp="1600969289013" />
     <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser/41.23.1751.1097@41.23.1751.1097" timestamp="1600882024902" />
-    <state x="552" y="304" key="NewPhpClassDialog" timestamp="1600880689921">
-      <screen x="41" y="23" width="1751" height="1097" />
+    <state x="654" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600969339198">
+      <screen x="40" y="23" width="1752" height="1097" />
     </state>
+    <state x="654" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1600969339198" />
+    <state x="551" y="304" key="NewPhpClassDialog" timestamp="1600947523505">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state x="551" y="304" key="NewPhpClassDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1600947523505" />
     <state x="552" y="304" key="NewPhpClassDialog/41.23.1751.1097@41.23.1751.1097" timestamp="1600880689921" />
     <state x="417" y="210" key="SettingsEditor" timestamp="1600872276749">
       <screen x="41" y="23" width="1751" height="1097" />
     </state>
     <state x="417" y="210" key="SettingsEditor/41.23.1751.1097@41.23.1751.1097" timestamp="1600872276749" />
-    <state x="593" y="326" width="647" height="490" key="find.popup" timestamp="1600882215765">
-      <screen x="41" y="23" width="1751" height="1097" />
+    <state x="592" y="326" width="648" height="490" key="find.popup" timestamp="1600965120023">
+      <screen x="40" y="23" width="1752" height="1097" />
     </state>
+    <state x="592" y="326" width="648" height="490" key="find.popup/40.23.1752.1097@40.23.1752.1097" timestamp="1600965120023" />
     <state x="593" y="326" width="647" height="490" key="find.popup/41.23.1751.1097@41.23.1751.1097" timestamp="1600882215765" />
   </component>
 </project>

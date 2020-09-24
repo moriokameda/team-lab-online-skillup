@@ -177,7 +177,7 @@ return [
 
 
 //        追加分
-//        Laravel\Socialite\Facades\Socialite::class,
+        Laravel\Socialite\SocialiteServiceProvider::class,
 
 
     ],
@@ -233,7 +233,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
 //        追加分
-//        'Socialite' => \Laravel\Socialite\Facades\Socialite::class,
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
 
     ],
 

@@ -65,12 +65,12 @@
                             </div>
                         </div>
                     </form>
-                    <div class="form-group row">
-                        <div class="col-md-6 offset-md-4">
-                            <a href="{{ url('login/github') }}">
-                                <button type="button" class="btn btn-primary"><i class="fab fa-twitter"></i> GitHubアカウントでログインする</button>
-                            </a>
-                        </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 offset-md-4">
+                        <a href="{{ url('login/github') }}">
+                            <button type="button" class="btn btn-primary"><i class="fab fa-twitter"></i> GitHubアカウントでログインする</button>
+                        </a>
                     </div>
                 </div>
             </div>

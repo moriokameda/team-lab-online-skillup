@@ -27,6 +27,12 @@ class InstagramController extends Controller
         return view("instagram/post-form");
     }
 
+
+    /**
+     * 投稿処理
+     * @param Request $request
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
     public function postForm(Request $request)
     {
         return redirect("/instagram");

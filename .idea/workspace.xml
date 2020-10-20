@@ -37,6 +37,7 @@
       <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/infrastructer/entity/TodoEntity.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/prezentation/controller/TodoController.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/instagram/post-form.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../teamlab/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../teamlab/.idea/teamlab.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../portfolio/.htaccess" afterDir="false" />
@@ -93,6 +94,14 @@
       <change beforePath="$PROJECT_DIR$/../../MytypingGame" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/BbsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/BbsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Models/Model/Bbs.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/Bbs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/views/bbs/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/bbs/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../firebase_study" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javascript-basic/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/css/style.css" beforeDir="false" />
@@ -362,6 +371,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/app/Models" />
       <recent name="$PROJECT_DIR$/backend/app/Http/Controllers/Auth" />
     </key>
   </component>
@@ -377,7 +387,7 @@
       <workItem from="1600873002295" duration="6433000" />
       <workItem from="1600911713599" duration="20546000" />
       <workItem from="1603005078536" duration="1977000" />
-      <workItem from="1603199752595" duration="336000" />
+      <workItem from="1603199752595" duration="6201000" />
     </task>
     <servers />
   </component>
@@ -397,14 +407,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="381" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600953863537">
+    <state x="516" y="236" key="#Docker" timestamp="1603210859551">
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
-    <state x="381" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1600953863537" />
-    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1600969839450">
+    <state x="516" y="236" key="#Docker/40.23.1752.1097@40.23.1752.1097" timestamp="1603210859551" />
+    <state x="381" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603210866418">
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
-    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser/40.23.1752.1097@40.23.1752.1097" timestamp="1600969839450" />
+    <state x="381" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1603210866418" />
+    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1603210479287">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser/40.23.1752.1097@40.23.1752.1097" timestamp="1603210479287" />
     <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser/41.23.1751.1097@41.23.1751.1097" timestamp="1600882024902" />
     <state x="654" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600969339198">
       <screen x="40" y="23" width="1752" height="1097" />
@@ -415,6 +429,10 @@
     </state>
     <state x="551" y="304" key="NewPhpClassDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1600947523505" />
     <state x="552" y="304" key="NewPhpClassDialog/41.23.1751.1097@41.23.1751.1097" timestamp="1600880689921" />
+    <state x="737" y="502" key="NewPhpFileDialog" timestamp="1603202992855">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state x="737" y="502" key="NewPhpFileDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1603202992855" />
     <state x="417" y="210" key="SettingsEditor" timestamp="1600872276749">
       <screen x="41" y="23" width="1751" height="1097" />
     </state>
@@ -424,5 +442,25 @@
     </state>
     <state x="592" y="326" width="648" height="490" key="find.popup/40.23.1752.1097@40.23.1752.1097" timestamp="1600965120023" />
     <state x="593" y="326" width="647" height="490" key="find.popup/41.23.1751.1097@41.23.1751.1097" timestamp="1600882215765" />
+    <state x="581" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1603211115888">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state x="581" y="268" width="670" height="676" key="search.everywhere.popup/40.23.1752.1097@40.23.1752.1097" timestamp="1603211115888" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -3,6 +3,7 @@
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\OAuthController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\BbsController;
 use App\Http\Controllers\InstagramController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -24,9 +25,17 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/instagram',[InstagramController::class,'index'])->name('instagram');
+//Route::get('/instagram', [InstagramController::class, 'index'])->name('instagram');
+/**
+ * instagram
+ */
+Route::prefix('/instagram')->group(function () {
+    Route::get('/',[InstagramController::class, 'index'])->name('instagram');
+    Route::get('/post/form', [InstagramController::class, 'showPostForm'])->name('postForm');
+    Route::post('/post/form', [InstagramController::class, 'postForm'])->name('upload');
+});
 /**
  * 認証関連
  */
@@ -36,5 +45,11 @@ Route::prefix('login')->group(function () {
         ->where('provider', 'github|facebook|google');
 });
 
-Route::get('register/{provider}',[OAuthController::class, 'showRegistrationForm'])
-    ->where('provider','github|facebook|google')->name('oauth.register');
+Route::get('register/{provider}', [OAuthController::class, 'showRegistrationForm'])
+    ->where('provider', 'github|facebook|google')->name('oauth.register');
+/**
+ * 掲示板
+ */
+Route::get('/bbs', [BbsController::class, 'index']);
+Route::post('/bbs', [BbsController::class, 'create']);
+

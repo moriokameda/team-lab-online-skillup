@@ -4,10 +4,31 @@
 namespace App\Http\Controllers;
 
 
+use Illuminate\Http\Request;
+
 class InstagramController extends Controller
 {
+
+    /**
+     * ホームページ表示
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function index()
     {
         return view("home");
+    }
+
+    /**
+     * 投稿ページ表示
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function showPostForm()
+    {
+        return view("instagram/post-form");
+    }
+
+    public function postForm(Request $request)
+    {
+        return redirect("/instagram");
     }
 }

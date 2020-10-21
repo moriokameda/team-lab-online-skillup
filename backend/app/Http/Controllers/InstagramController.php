@@ -4,6 +4,8 @@
 namespace App\Http\Controllers;
 
 
+use App\Models\instagram\Photos;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class InstagramController extends Controller
@@ -15,7 +17,9 @@ class InstagramController extends Controller
      */
     public function index()
     {
-        return view("home");
+        $users = User::all();
+        $photos = Photos::all();
+        return view("home", ["users" => $users]);
     }
 
     /**

@@ -37,6 +37,8 @@
       <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/infrastructer/entity/TodoEntity.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/prezentation/controller/TodoController.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/instagram/likes.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/instagram/profile.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../teamlab/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../teamlab/.idea/teamlab.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../portfolio/.htaccess" afterDir="false" />
@@ -92,6 +94,7 @@
       <change beforePath="$PROJECT_DIR$/../../MyYoutube" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MytypingGame" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../firebase_study" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javascript-basic/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/css/style.css" beforeDir="false" />
@@ -377,7 +380,7 @@
       <workItem from="1600873002295" duration="6433000" />
       <workItem from="1600911713599" duration="20546000" />
       <workItem from="1603005078536" duration="1977000" />
-      <workItem from="1603199752595" duration="9389000" />
+      <workItem from="1603199752595" duration="10023000" />
     </task>
     <servers />
   </component>
@@ -419,10 +422,10 @@
     </state>
     <state x="551" y="304" key="NewPhpClassDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1600947523505" />
     <state x="552" y="304" key="NewPhpClassDialog/41.23.1751.1097@41.23.1751.1097" timestamp="1600880689921" />
-    <state x="737" y="502" key="NewPhpFileDialog" timestamp="1603202992855">
+    <state x="737" y="502" key="NewPhpFileDialog" timestamp="1603286836003">
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
-    <state x="737" y="502" key="NewPhpFileDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1603202992855" />
+    <state x="737" y="502" key="NewPhpFileDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1603286836003" />
     <state x="417" y="210" key="SettingsEditor" timestamp="1600872276749">
       <screen x="41" y="23" width="1751" height="1097" />
     </state>

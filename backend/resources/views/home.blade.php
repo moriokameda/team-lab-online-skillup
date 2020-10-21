@@ -9,6 +9,11 @@
                     <div class="card-header">
                         ユーザ名:
                         <span class="user-name">ユーザ名</span>
+                        @elseguest
+                            <div class="btn">
+                                <a href="" class="btn">投稿を削除</a>
+                            </div>
+                        @endguest
                     </div>
 
                     <div class="card-body">

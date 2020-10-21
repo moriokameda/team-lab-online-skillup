@@ -94,7 +94,7 @@
       <change beforePath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2020_10_20_164405_create_photos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2020_10_20_164405_create_photos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/views/instagram/post-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/instagram/post-form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../firebase_study" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javascript-basic/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/css/style.css" beforeDir="false" />
@@ -380,7 +380,7 @@
       <workItem from="1600873002295" duration="6433000" />
       <workItem from="1600911713599" duration="20546000" />
       <workItem from="1603005078536" duration="1977000" />
-      <workItem from="1603199752595" duration="11484000" />
+      <workItem from="1603199752595" duration="13097000" />
     </task>
     <servers />
   </component>

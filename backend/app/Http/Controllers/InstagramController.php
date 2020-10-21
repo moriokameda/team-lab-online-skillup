@@ -39,6 +39,16 @@ class InstagramController extends Controller
      */
     public function postForm(Request $request)
     {
+        $this->validate($request, [
+            'photo' => [
+                'required',
+                'image',
+                'mimes:jpeg,png',
+            ],
+            'caption' => [
+                'max:255'
+            ]
+        ]);
         return redirect("/instagram");
     }
 

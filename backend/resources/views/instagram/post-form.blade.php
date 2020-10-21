@@ -2,44 +2,28 @@
 
 @section('content')
     <div class="container">
+{{--        バリデーションエラー表示エリア--}}
+        @if($errors->any())
+            <div class="row justify-content-center">
+                <div class="alert alert-danger">
+                    <ul class="">
+                        @foreach($errors->all() as $error)
+                            <li>{{$error}}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            </div>
+        @endif
         <div class="row justify-content-center">
-            <form class="col-md-8" method="POST" action="/instagram/post/form">
+            <form class="col-md-8" method="POST" action="/instagram/post/form" enctype="multipart/form-data">
                 @csrf
                 <div class="card card-file">
                     {{--                TODO foreachループでユーザ名のカードを追加--}}
                     <div class="card-body">
                         ファイルを追加
-                        <input type="file" accept="image/png,image/jpeg,image/jpg, image/gif" name="photo" class="custom-file-input" placeholder="ファイルをドラッグ＆ドロップしてください" >
+                        <input type="file" accept="image/png,image/jpeg,image/jpg, image/gif" name="photo"
+                               class="custom-file-input" placeholder="ファイルをドラッグ＆ドロップしてください">
                     </div>
-
-{{--                    <div class="card-body">--}}
-{{--                        @if (session('status'))--}}
-{{--                            <div class="alert alert-success" role="alert">--}}
-{{--                                {{ session('status') }}--}}
-{{--                            </div>--}}
-{{--                        @endif--}}
-{{--                        <div class="photo-area">--}}
-{{--                            <img src="" alt="ここには投稿画像パスが表示">--}}
-{{--                        </div>--}}
-{{--                        <div class="caption-wrap">--}}
-{{--                            <div class="caption">--}}
-{{--                                --}}{{--                                キャプションを表示 --}}
-{{--                            </div>--}}
-{{--                            <a class="like">--}}
-{{--                                <p>--}}
-{{--                                    --}}{{--                            TODO　いいねしたユーザ数を表示--}}
-{{--                                </p>--}}
-{{--                            </a>--}}
-{{--                            @guest--}}
-{{--                                <a class="btn like-btn no-active">--}}
-{{--                                    <img src="" alt="非活性の星ボタン">--}}
-{{--                                </a>--}}
-{{--                            @else--}}
-{{--                                <a class="btn like-btn">--}}
-{{--                                    <img src="" alt="星ボタン">--}}
-{{--                                </a>--}}
-{{--                            @endguest--}}
-{{--                        </div>--}}
                 </div>
                 <div class="card">
                     <div class="card-body">

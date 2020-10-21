@@ -19,7 +19,7 @@ class InstagramController extends Controller
     {
         $users = User::all();
         $photos = Photos::all();
-        return view("home", ["users" => $users]);
+        return view("home", ["users" => $users, "photos" => $photos]);
     }
 
     /**

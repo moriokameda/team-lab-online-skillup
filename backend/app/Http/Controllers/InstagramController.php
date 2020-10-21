@@ -7,6 +7,7 @@ namespace App\Http\Controllers;
 use App\Models\instagram\Photos;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class InstagramController extends Controller
 {
@@ -28,6 +29,9 @@ class InstagramController extends Controller
      */
     public function showPostForm()
     {
+        if (!Auth::login()) {
+            return redirect()->route('login');
+        }
         return view("instagram/post-form");
     }
 
@@ -46,9 +50,16 @@ class InstagramController extends Controller
                 'mimes:jpeg,png',
             ],
             'caption' => [
-                'max:255'
+                'max:255',
+                'min:1',
             ]
         ]);
+        if (!$request->file('photo')->isValid([])) {
+            return redirect()->back()->withInput()->withErrors();
+        }
+        $userId = Auth::id();
+        $photo = base64_encode(file_get_contents($request->photo->getRealPath()));
+
         return redirect("/instagram");
     }
 

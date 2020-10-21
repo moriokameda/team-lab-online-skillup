@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-{{--        バリデーションエラー表示エリア--}}
+        {{--        バリデーションエラー表示エリア--}}
         @if($errors->any())
             <div class="row justify-content-center">
                 <div class="alert alert-danger">

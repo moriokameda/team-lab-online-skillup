@@ -41,4 +41,24 @@ class InstagramController extends Controller
     {
         return redirect("/instagram");
     }
+
+
+    /**
+     * プロフィールを表示
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function showProfile()
+    {
+        return view("instagram/profile");
+    }
+
+
+    /**
+     * いいねユーザ一覧を表示
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function showLikes()
+    {
+        return view("instagram/likes");
+    }
 }

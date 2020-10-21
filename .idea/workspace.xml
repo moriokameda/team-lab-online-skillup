@@ -37,8 +37,6 @@
       <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/infrastructer/entity/TodoEntity.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/kotlin/com/moriokameda/todo/prezentation/controller/TodoController.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Kotlin/todo/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/views/instagram/likes.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/views/instagram/profile.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../teamlab/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../teamlab/.idea/teamlab.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../portfolio/.htaccess" afterDir="false" />
@@ -95,6 +93,8 @@
       <change beforePath="$PROJECT_DIR$/../../MytypingGame" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Resources/instagram/likes.blade.php.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../firebase_study" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javascript-basic/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/css/style.css" beforeDir="false" />
@@ -380,7 +380,7 @@
       <workItem from="1600873002295" duration="6433000" />
       <workItem from="1600911713599" duration="20546000" />
       <workItem from="1603005078536" duration="1977000" />
-      <workItem from="1603199752595" duration="10023000" />
+      <workItem from="1603199752595" duration="10443000" />
     </task>
     <servers />
   </component>
@@ -408,10 +408,10 @@
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
     <state x="381" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1603210866418" />
-    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1603213351243">
+    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1603287710165">
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
-    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser/40.23.1752.1097@40.23.1752.1097" timestamp="1603213351242" />
+    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser/40.23.1752.1097@40.23.1752.1097" timestamp="1603287710165" />
     <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser/41.23.1751.1097@41.23.1751.1097" timestamp="1600882024902" />
     <state x="654" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600969339198">
       <screen x="40" y="23" width="1752" height="1097" />

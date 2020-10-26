@@ -12,6 +12,11 @@ use Illuminate\Support\Facades\Auth;
 class InstagramController extends Controller
 {
 
+    public function __construct()
+    {
+        $this->middleware('login');
+    }
+
     /**
      * ホームページ表示
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
@@ -29,9 +34,6 @@ class InstagramController extends Controller
      */
     public function showPostForm()
     {
-        if (!Auth::login()) {
-            return redirect()->route('login');
-        }
         return view("instagram/post-form");
     }
 
@@ -55,11 +57,15 @@ class InstagramController extends Controller
             ]
         ]);
         if (!$request->file('photo')->isValid([])) {
-            return redirect()->back()->withInput()->withErrors();
+            return redirect()->back()->withInput()->withErrors("jpegかpngを選択してください。");
         }
         $userId = Auth::id();
         $photo = base64_encode(file_get_contents($request->photo->getRealPath()));
-
+        try {
+            Photos::create(["user_id" => $userId, "photo_url" => $photo, "caption" => $request->input("caption")]);
+        } catch (\Exception $e) {
+            return redirect()->back()->withErrors($e->getTraceAsString());
+        }
         return redirect("/instagram");
     }
 

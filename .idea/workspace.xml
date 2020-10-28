@@ -92,10 +92,7 @@
       <change beforePath="$PROJECT_DIR$/../../MyYoutube" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MytypingGame" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../firebase_study" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javascript-basic/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/css/style.css" beforeDir="false" />
@@ -450,12 +447,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php</url>
-          <line>34</line>
+          <line>31</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php</url>
-          <line>35</line>
+          <line>32</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

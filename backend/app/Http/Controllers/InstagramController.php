@@ -29,9 +29,6 @@ class InstagramController extends Controller
      */
     public function showPostForm()
     {
-        if (!Auth::login()) {
-            return redirect()->route('login');
-        }
         return view("instagram/post-form");
     }
 

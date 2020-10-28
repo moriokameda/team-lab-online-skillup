@@ -2,21 +2,25 @@
 
 @section('content')
     <div class="container">
-        <div class="row justify-content-center">
-            <ul class="card">
-{{--                TODO いいねのユーザのループ --}}
-                <li class="card-body">
-                    <div class="card-img">
-{{--                        TODO ユーザのプロフィール画像ページへのリンクを貼り付け--}}
-                        <a href="">
-                            <img src="" alt="ユーザ">
-                        </a>
-                    </div>
-                    <div>
-                        <p>ユーザ名</p>
+        <ul class="justify-content-center">
+            @foreach($likes as $like)
+                <?php
+                $user = $users->firstWhere('id', $like->user_id);
+                ?>
+                <li class="row card">
+                    <div class="card-body">
+                        <div class="card-img">
+                            {{--                        TODO ユーザのプロフィール画像ページへのリンクを貼り付け--}}
+                            <a href="">
+                                <img src="{{ $user->avatar }}" alt="ユーザ">
+                            </a>
+                        </div>
+                        <div>
+                            <p>{{ $user->name }}</p>
+                        </div>
                     </div>
                 </li>
-            </ul>
-        </div>
+            @endforeach
+        </ul>
     </div>
 @endsection

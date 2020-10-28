@@ -36,7 +36,7 @@
                                     {{ $photo->caption }}
                                 </div>
                                 <a class="like">
-                                    <a href="{{route('login')}}">
+                                    <a href="{{route('likes', $photo->id )}}">
                                         いいねしたユーザ
                                         {{--                            TODO　いいねしたユーザ数を表示--}}
                                     </a>

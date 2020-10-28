@@ -95,6 +95,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/views/instagram/likes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/instagram/likes.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../firebase_study" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javascript-basic/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/css/style.css" beforeDir="false" />
@@ -439,9 +440,10 @@
     </state>
     <state x="592" y="326" width="648" height="490" key="find.popup/40.23.1752.1097@40.23.1752.1097" timestamp="1600965120023" />
     <state x="593" y="326" width="647" height="490" key="find.popup/41.23.1751.1097@41.23.1751.1097" timestamp="1600882215765" />
-    <state x="581" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1603211115888">
-      <screen x="40" y="23" width="1752" height="1097" />
+    <state x="580" y="268" width="671" height="676" key="search.everywhere.popup" timestamp="1603905689441">
+      <screen x="39" y="23" width="1753" height="1097" />
     </state>
+    <state x="580" y="268" width="671" height="676" key="search.everywhere.popup/39.23.1753.1097@39.23.1753.1097" timestamp="1603905689441" />
     <state x="581" y="268" width="670" height="676" key="search.everywhere.popup/40.23.1752.1097@40.23.1752.1097" timestamp="1603211115888" />
   </component>
   <component name="XDebuggerManager">
@@ -449,12 +451,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php</url>
-          <line>34</line>
+          <line>35</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

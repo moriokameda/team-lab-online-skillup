@@ -4,6 +4,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Models\instagram\Likes;
 use App\Models\instagram\Photos;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -81,8 +82,15 @@ class InstagramController extends Controller
      * いいねユーザ一覧を表示
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function showLikes()
+    public function showLikes(Photos $photo)
     {
-        return view("instagram/likes");
+//        $photo = Photos::find($photo->id);
+        $likes = Likes::Where('photo_id', $photo->id);
+        $users = User::all();
+        return view("instagram/likes", ["users" => $users, "likes" => $likes]);
     }
+
+    /**
+     *
+     */
 }

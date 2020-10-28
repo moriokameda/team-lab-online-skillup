@@ -8,6 +8,7 @@ use App\Models\instagram\Photos;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use mysql_xdevapi\Exception;
 
 class InstagramController extends Controller
 {
@@ -56,7 +57,11 @@ class InstagramController extends Controller
         }
         $userId = Auth::id();
         $photo = base64_encode(file_get_contents($request->photo->getRealPath()));
-
+        try {
+            Photos::create(["user_id" => $userId, "photo_url" => $photo, "caption" => $request->input("caption")]);
+        } catch (Exception $exception) {
+            return redirect()->back()->withErrors($exception);
+        }
         return redirect("/instagram");
     }
 

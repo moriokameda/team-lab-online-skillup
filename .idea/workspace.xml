@@ -94,8 +94,11 @@
       <change beforePath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Models/instagram/Likes.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/instagram/Likes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Models/instagram/Photos.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/instagram/Photos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/views/instagram/likes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/instagram/likes.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../firebase_study" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javascript-basic/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../jqueryPlugin/css/style.css" beforeDir="false" />
@@ -413,11 +416,16 @@
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
     <state x="381" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1603210866418" />
-    <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1603287710165">
-      <screen x="40" y="23" width="1752" height="1097" />
+    <state x="727" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1604307443174">
+      <screen x="39" y="23" width="1753" height="1097" />
     </state>
+    <state x="727" y="294" key="#com.intellij.ide.util.MemberChooser/39.23.1753.1097@39.23.1753.1097" timestamp="1604307443174" />
     <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser/40.23.1752.1097@40.23.1752.1097" timestamp="1603287710165" />
     <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser/41.23.1751.1097@41.23.1751.1097" timestamp="1600882024902" />
+    <state x="604" y="314" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604307107697">
+      <screen x="39" y="23" width="1753" height="1097" />
+    </state>
+    <state x="604" y="314" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/39.23.1753.1097@39.23.1753.1097" timestamp="1604307107697" />
     <state x="654" y="333" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600969339198">
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
@@ -451,12 +459,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php</url>
-          <line>34</line>
+          <line>35</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php</url>
-          <line>35</line>
+          <line>36</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

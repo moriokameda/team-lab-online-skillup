@@ -17,7 +17,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password','nickname','avatar','provider_id',
+        'name', 'email', 'password', 'nickname', 'avatar', 'provider_id',
     ];
 
     /**
@@ -37,4 +37,22 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * 投稿した写真の取得
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function photos()
+    {
+        return $this->hasOne('App\Models\instagram\Photos', 'user_id');
+    }
+
+    /**
+     * いいねの取得
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function likes()
+    {
+        return $this->hasOne('App\Models\instagram\Likes', 'user_id');
+    }
 }

@@ -7,9 +7,12 @@
                 <div class="col-md-8">
                     <div class="card">
                         <?php
-//                        var_dump($photo);
-//                        exit();
+                        //                        var_dump($photo);
+                        //                        exit();
                         $user = $users->firstWhere('id', $photo->user_id);
+                        $like = $likes->firstWhere('photo_id', $photo->id);
+//                        var_dump($like);
+//                        exit();
                         ?>
                         {{--                TODO foreachループでユーザ名のカードを追加--}}
                         <div class="card-header">
@@ -29,16 +32,19 @@
                                 </div>
                             @endif
                             <div class="photo-area">
-                                <img src="data:image/png;base64,<?= $photo->photo_url ?>" alt="ここには投稿画像パスが表示" width="300px" height="200px">
+                                <img src="data:image/png;base64,<?= $photo->photo_url ?>" alt="ここには投稿画像パスが表示"
+                                     width="300px" height="200px">
                             </div>
                             <div class="caption-wrap">
                                 <div class="caption">
                                     {{ $photo->caption }}
                                 </div>
                                 <a class="like">
-                                    <a href="{{route('likes', $photo->id )}}">
-                                        いいねしたユーザ
-                                        {{--                            TODO　いいねしたユーザ数を表示--}}
+                                    <a href="{{url('instagram/'.$photo->id)}}">
+                                        いいねしたユーザ数
+                                        @isset($like)
+                                            {{ $like->count() }}
+                                        @endisset
                                     </a>
                                 </a>
                                 @guest

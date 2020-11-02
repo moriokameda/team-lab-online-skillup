@@ -22,8 +22,9 @@ class InstagramController extends Controller
     {
         $users = User::all();
         $photos = Photos::all();
+        $likes = Likes::all();
         $sortedPhotos = $photos->sortByDesc('created_at');
-        return view("home", ["users" => $users, "photos" => $sortedPhotos]);
+        return view("home", ["users" => $users, "photos" => $sortedPhotos, "likes" => $likes]);
     }
 
     /**

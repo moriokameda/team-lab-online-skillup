@@ -11,4 +11,13 @@ class Photos extends Model
         'id', 'user_id', 'photo_url', 'caption'
     ];
     use HasFactory;
+
+    /**
+     * いいねした写真の取得
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function likes()
+    {
+        return $this->hasOne('App\Models\instagram\Likes', 'photo_id');
+    }
 }

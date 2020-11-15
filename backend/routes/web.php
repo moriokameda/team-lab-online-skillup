@@ -35,14 +35,18 @@ Route::prefix('/instagram')->group(function () {
     Route::get('/',[InstagramController::class, 'index'])->name('instagram');
     Route::get('/post/form', [InstagramController::class, 'showPostForm'])->name('postForm');
     Route::post('/post/form', [InstagramController::class, 'postForm'])->name('upload');
-    Route::get('/likes/{photos_id}', [InstagramController::class, 'showLikes'])->name('likes');
-    Route::get('/profile', [InstagramController::class, 'showProfile'])->name('profile');
+//    Route::get('/likes/photo_{photo_id}', [InstagramController::class, 'showLikes'])->name('likes')->where('photo_id');
+//    Route::get('/profile/{user_id}', [InstagramController::class, 'showProfile'])->name('profile')->where('user_id');
+    Route::post('/post/like',[InstagramController::class, 'postLikes']);
 });
 /**
  * 認証関連
  */
+
 Route::prefix('login')->group(function () {
     Route::get('/{provider}', [OAuthController::class, 'socialOAuth'])->where('provider', 'github|facebook|google');
+//    Route::get('/{provider}','OAuthController@socialOAuth')->where('provider','github|facebook|google');
+    Route::get('/github',[OAuthController::class, 'socialOAuth']);
     Route::get('/{provider}/callback', [OAuthController::class, 'handleProviderCallback'])
         ->where('provider', 'github|facebook|google');
 });

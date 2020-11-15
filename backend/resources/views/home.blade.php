@@ -11,8 +11,8 @@
                         //                        exit();
                         $user = $users->firstWhere('id', $photo->user_id);
                         $like = $likes->firstWhere('photo_id', $photo->id);
-//                        var_dump($like);
-//                        exit();
+                        //                        var_dump($like);
+                        //                        exit();
                         ?>
                         {{--                TODO foreachループでユーザ名のカードを追加--}}
                         <div class="card-header">
@@ -40,21 +40,23 @@
                                     {{ $photo->caption }}
                                 </div>
                                 <a class="like">
-                                    <a href="{{url('instagram/'.$photo->id)}}">
-                                        いいねしたユーザ数
-                                        @isset($like)
+                                    @isset($like)
+                                        <a href="{{url('instagram/likes/photo_'.(string)$photo->id)}}">
+                                            いいねしたユーザ数
                                             {{ $like->count() }}
-                                        @endisset
-                                    </a>
+                                        </a>
+                                    @endisset
                                 </a>
                                 @guest
                                     <a class="btn like-btn no-active">
-                                        <img src="" alt="非活性の星ボタン">
+                                        <img name="like" src="" alt="非活性の星ボタン">
                                     </a>
                                 @else
-                                    <a class="btn like-btn">
-                                        <img src="" alt="星ボタン">
-                                    </a>
+                                    <form action="/instagram/post/like" method="POST">
+                                        @csrf
+                                        <input name="photo_id" type="hidden" value="{{$photo->id}}">
+                                        <input name="like" type="submit" value="いいね">
+                                    </form>
                                 @endguest
                             </div>
 

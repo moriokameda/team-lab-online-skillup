@@ -92,12 +92,15 @@
       <change beforePath="$PROJECT_DIR$/../../MyYoutube" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MytypingGame" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../skillup-php-step1-master/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/team-lab_online-skillup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/team-lab_online-skillup.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/Auth/OAuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/Auth/OAuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/InstagramController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Models/instagram/Likes.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/instagram/Likes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app/Models/instagram/Photos.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/instagram/Photos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/views/instagram/likes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/instagram/likes.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../firebase_study" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../javascript-basic/index.html" beforeDir="false" />
@@ -349,6 +352,7 @@
       <path value="$PROJECT_DIR$/backend/vendor/symfony/polyfill-iconv" />
       <path value="$PROJECT_DIR$/backend/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/backend/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/backend/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hpYR1Ah67lCsclVrtFfJXoIiw5" />
@@ -389,6 +393,11 @@
       <workItem from="1600911713599" duration="20546000" />
       <workItem from="1603005078536" duration="1977000" />
       <workItem from="1603199752595" duration="13979000" />
+      <workItem from="1604889743439" duration="1729000" />
+      <workItem from="1605025170059" duration="842000" />
+      <workItem from="1605247167558" duration="116000" />
+      <workItem from="1605430665577" duration="859000" />
+      <workItem from="1605432294203" duration="704000" />
     </task>
     <servers />
   </component>
@@ -416,10 +425,10 @@
       <screen x="40" y="23" width="1752" height="1097" />
     </state>
     <state x="381" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1603210866418" />
-    <state x="727" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1604307443174">
+    <state x="727" y="294" key="#com.intellij.ide.util.MemberChooser" timestamp="1604310820663">
       <screen x="39" y="23" width="1753" height="1097" />
     </state>
-    <state x="727" y="294" key="#com.intellij.ide.util.MemberChooser/39.23.1753.1097@39.23.1753.1097" timestamp="1604307443174" />
+    <state x="727" y="294" key="#com.intellij.ide.util.MemberChooser/39.23.1753.1097@39.23.1753.1097" timestamp="1604310820663" />
     <state x="728" y="294" key="#com.intellij.ide.util.MemberChooser/40.23.1752.1097@40.23.1752.1097" timestamp="1603287710165" />
     <state x="729" y="294" key="#com.intellij.ide.util.MemberChooser/41.23.1751.1097@41.23.1751.1097" timestamp="1600882024902" />
     <state x="604" y="314" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604307107697">

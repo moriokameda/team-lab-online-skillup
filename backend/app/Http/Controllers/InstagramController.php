@@ -73,25 +73,39 @@ class InstagramController extends Controller
      * プロフィールを表示
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function showProfile()
+    public function showProfile(string $userId)
     {
-        return view("instagram/profile");
+        $user = User::Where('id', $userId);
+        return view("instagram/profile", ["user" => $user]);
     }
 
 
     /**
      * いいねユーザ一覧を表示
+     * @param $photoId
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function showLikes(Photos $photo)
+    public function showLikes(string $photoId)
     {
-//        $photo = Photos::find($photo->id);
-        $likes = Likes::Where('photo_id', $photo->id);
+        $likes = Likes::Where('photo_id', $photoId);
         $users = User::all();
         return view("instagram/likes", ["users" => $users, "likes" => $likes]);
     }
 
+
     /**
-     *
+     * いいね投稿処理
+     * @param $photoId
+     * @return \Illuminate\Http\RedirectResponse
      */
+    public function postLikes(Request $request)
+    {
+        try {
+            $userId = Auth::id();
+            Likes::create(["user_id" => $userId, "photo_id" => $request->input("photo_id")]);
+            return redirect('/instagram');
+        } catch (\Exception $exception) {
+            return redirect()->back()->withErrors($exception);
+        }
+    }
 }

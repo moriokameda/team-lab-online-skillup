@@ -11,7 +11,7 @@
                     <div class="card-body">
                         <div class="card-img">
                             {{--                        TODO ユーザのプロフィール画像ページへのリンクを貼り付け--}}
-                            <a href="">
+                            <a href="{{url('/instagram/profile/'.$user->id)}}">
                                 <img src="{{ $user->avatar }}" alt="ユーザ">
                             </a>
                         </div>

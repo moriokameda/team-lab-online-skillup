@@ -22,9 +22,14 @@ class OAuthController extends Controller
      * @param string $provider
      * @return \Symfony\Component\HttpFoundation\RedirectResponse
      */
-    public function socialOAuth(string $provider)
+//    public function socialOAuth(string $provider)
+//    {
+//        return Socialite::driver($provider)->redirect();
+//    }
+
+    public function socialOAuth()
     {
-        return Socialite::driver($provider)->redirect();
+        return Socialite::driver('github')->redirect();
     }
 
     /**
@@ -51,8 +56,8 @@ class OAuthController extends Controller
          */
         $request->session()->put('provider_token', $userSocial->token);
         $request->session()->put('provider', $provider);
-        return redirect()->route('oauth.register',[
-          'provider' => $provider
+        return redirect()->route('oauth.register', [
+            'provider' => $provider
         ]);
 //        return view('auth/register', [
 //            'provider_id' => $userSocial->getId(),

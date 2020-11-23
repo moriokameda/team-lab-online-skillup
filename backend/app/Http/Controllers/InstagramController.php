@@ -75,8 +75,12 @@ class InstagramController extends Controller
      */
     public function showProfile(string $userId)
     {
-        $user = User::Where('id', $userId);
-        return view("instagram/profile", ["user" => $user]);
+        $user = User::Where('id', $userId)->get();
+        $photos = Photos::Where('user_id', $userId)->get();
+        $sortedPhotos = $photos->sortByDesc('created_at');
+//        var_dump($user);
+//        exit();
+        return view("instagram/profile", ["user" => $user, "photos" => $sortedPhotos]);
     }
 
 
@@ -85,9 +89,11 @@ class InstagramController extends Controller
      * @param $photoId
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function showLikes(string $photoId)
+    public function showLikes(?string $photoId)
     {
-        $likes = Likes::Where('photo_id', $photoId);
+        $likes = Likes::Where('photo_id', $photoId)->get();
+//        var_dump($likes);
+//        exit();
         $users = User::all();
         return view("instagram/likes", ["users" => $users, "likes" => $likes]);
     }

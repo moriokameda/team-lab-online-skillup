@@ -4,24 +4,28 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="">
-                <div class="profile_wrap">
-                    <div class="profile_icon">
-                        <img src="" alt="プロフィール画像">
+                @foreach($user as $user)
+                    <div class="profile_wrap">
+                        <div class="profile_icon">
+                            <img src="{{$user->avatar}}" alt="プロフィール画像">
+                        </div>
+                        <div class="profile_name">
+                            <p>{{$user->name}}</p>
+                        </div>
+                        <div class="profile_likes">
+                            <p>いいね合計数</p>
+                        </div>
                     </div>
-                    <div class="profile_name">
-                        <p>ユーザ名</p>
-                    </div>
-                    <div class="profile_likes">
-                        <p>いいね合計数</p>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
-{{--        TODO ループ--}}
+        {{--        TODO ループ--}}
         <div class="row">
-            <div class="col-4">
-                <img src=""alt="投稿写真">
-            </div>
+            @foreach($photos as $photo)
+                <div class="col-4">
+                    <img src="data:image/png;base64,<?= $photo->photo_url ?>" alt="投稿写真" width="100%" height="200px">
+                </div>
+            @endforeach
         </div>
     </div>
 @endsection

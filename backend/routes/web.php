@@ -35,8 +35,9 @@ Route::prefix('/instagram')->group(function () {
     Route::get('/',[InstagramController::class, 'index'])->name('instagram');
     Route::get('/post/form', [InstagramController::class, 'showPostForm'])->name('postForm');
     Route::post('/post/form', [InstagramController::class, 'postForm'])->name('upload');
-//    Route::get('/likes/photo_{photo_id}', [InstagramController::class, 'showLikes'])->name('likes')->where('photo_id');
+    Route::get('/likes/{photo_id}',[InstagramController::class, 'showLikes'])->name('likes');
 //    Route::get('/profile/{user_id}', [InstagramController::class, 'showProfile'])->name('profile')->where('user_id');
+    Route::get('/profile/{user_id}', [InstagramController::class, 'showProfile'])->name('profile');
     Route::post('/post/like',[InstagramController::class, 'postLikes']);
 });
 /**

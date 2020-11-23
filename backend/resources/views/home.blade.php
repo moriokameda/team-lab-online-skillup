@@ -11,6 +11,7 @@
                         //                        exit();
                         $user = $users->firstWhere('id', $photo->user_id);
                         $like = $likes->firstWhere('photo_id', $photo->id);
+                        $photo_id = (string)$photo->id;
                         //                        var_dump($like);
                         //                        exit();
                         ?>
@@ -41,7 +42,7 @@
                                 </div>
                                 <a class="like">
                                     @isset($like)
-                                        <a href="{{url('instagram/likes/photo_'.(string)$photo->id)}}">
+                                        <a href="{{route('likes',['photo_id' => $photo_id ])}}">
                                             いいねしたユーザ数
                                             {{ $like->count() }}
                                         </a>
